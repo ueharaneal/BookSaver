@@ -1,7 +1,5 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+# Getting Started with BookSaver
+This project allows you to save and edit books. You will be able to remove the book once it is on your list. 
 ## Available Scripts
 
 In the project directory, you can run:
