@@ -1,7 +1,7 @@
 
 ## Description
 
-This project allows you to save and edit books. You will be able to remove the book once it is on your list. 
+This project allows you to save and edit books. You will be able to remove the book once it is on your list. A photo will be generated using Unspash's API. 
 
 
 ## Features
