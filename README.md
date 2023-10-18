@@ -20,4 +20,6 @@ This project allows you to save and edit books. You will be able to remove the b
 
 Be sure run the command "Npm install" 
 
+With this your books will be saved by the json api server. 
+
 When starting the application be sure to open up two different terminals. In the first terminal you will start the react server by running the command "npm start". In the second terminal you will be starting the json server by running the command "npm run server" 
