@@ -1,7 +1,7 @@
 {
   "books": [
     {
-      "books": "Dark Tower ",
+      "title": "Example Book",
       "id": 1
     }
   ]
