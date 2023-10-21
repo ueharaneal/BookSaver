@@ -3,6 +3,7 @@
 
 This project allows you to save and edit books. You will be able to remove the book once it is on your list. A photo will be generated using Unspash's API. 
 
+<img width="965" alt="Screenshot 2023-10-20 at 8 26 59 PM" src="https://github.com/ueharaneal/BookSaver/assets/79432460/f7082701-1817-4df5-a6e3-a70932c949a6">
 
 ## Features
 
@@ -18,8 +19,8 @@ This project allows you to save and edit books. You will be able to remove the b
    git clone https://github.com/your-username/react-booksaver.git
 
 
-Be sure run the command "Npm install" 
+Be sure to run the command "npm install" 
 
-With this your books will be saved by the json api server. 
+With this, your books will be saved by the JSON API server. 
 
-When starting the application be sure to open up two different terminals. In the first terminal you will start the react server by running the command "npm start". In the second terminal you will be starting the json server by running the command "npm run server" 
+When starting the application be sure to open up two different terminals. In the first terminal, you will start the react server by running the command "npm start". In the second terminal, you will start the JSON server by running the command "npm run server" 
