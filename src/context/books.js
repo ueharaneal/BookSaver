@@ -1,4 +1,4 @@
-import { useState, createContext } from 'react'
+import { useState, createContext, useCallback} from 'react'
 import axios from 'axios';
 
 const BooksContext = createContext();
@@ -7,10 +7,10 @@ function Provider({ children }){
     const [books, setBooks] = useState([]);
     
     //Fetching existing books and loading on initial render
-   const fetchBooks = async()=>{
-    const response = await axios.get("http://localhost:3001/books")
-    setBooks(response.data)
-   } 
+   const fetchBooks = useCallback(async()=>{
+        const response = await axios.get("http://localhost:3001/books")
+        setBooks(response.data)
+        }, [])
 
    const editBookById = async (id, newTitle)=>{
     const response = await axios.put(`http://localhost:3001/books/${id}`,{
